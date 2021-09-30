@@ -1,6 +1,6 @@
 <template>
   <base-container>
-    <h2>Active Users</h2>
+    <h2>Active Managers</h2>
     <base-search @search="updateSearch" :search-term="enteredSearchTerm"></base-search>
     <div>
       <button @click="sort('asc')" :class="{selected: sorting === 'asc'}">Sort Ascending</button>
